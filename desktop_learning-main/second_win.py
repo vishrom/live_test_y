@@ -20,18 +20,18 @@ class TestWin(QWidget):
     self.fio = QLabel(fio_txt)
     self.fio_area = QLineEdit()
 #____________________________________________________________
-    self.years = QLabel(years_txt) # ЖАНСАЕ - years_txt = вопросу о возрасте пользователя
+    self.years = QLabel(years_txt) 
     self.years_area = QLineEdit()
 #____________________________________________________________
-    self.test_1 = QLabel(t1_txt) # ЖАНСАЕ - t1 = текст первого теста
+    self.test_1 = QLabel(t1_txt) 
     self.baton_test_1 = QPushButton('Начать первый тест')
     self.test_1_area = QLineEdit()
 #____________________________________________________________
-    self.test_2 = QLabel(t2_txt) # ЖАНСАЕ - t2 = текст второго теста
+    self.test_2 = QLabel(t2_txt)
     self.baton_test_2 = QPushButton('Начать второй тест')
     self.test_2_area = QLineEdit()
 #____________________________________________________________
-    self.test_3 = QLabel(t3_txt) # ЖАНСАЕ - t3 = текст третьего теста
+    self.test_3 = QLabel(t3_txt)
     self.baton_test_3 = QPushButton('Начать последний тест')
     self.test_3_area = QLineEdit()
 #____________________________________________________________
