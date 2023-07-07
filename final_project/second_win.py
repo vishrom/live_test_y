@@ -46,25 +46,25 @@ class TestWin(QWidget):
 #======================================================================@
 
     # ФАМИЛИЯ
-    self.v_layout1.addWidget(self.fio)
-    self.v_layout1.addWidget(self.fio_area)
+    self.v_layout1.addWidget(self.fio, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.fio_area, alignment=Qt.AlignLeft)
     # ВОЗРАСТ
-    self.v_layout1.addWidget(self.years)
-    self.v_layout1.addWidget(self.years_area)
+    self.v_layout1.addWidget(self.years, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.years_area, alignment=Qt.AlignLeft)
     # ТЕСТ НОМЕР 1
-    self.v_layout1.addWidget(self.test_1)
-    self.v_layout1.addWidget(self.baton_test_1)
-    self.v_layout1.addWidget(self.test_1_area)
+    self.v_layout1.addWidget(self.test_1, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.baton_test_1, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.test_1_area, alignment=Qt.AlignLeft)
     # ТЕСТ НОМЕР 2
-    self.v_layout1.addWidget(self.test_2)
-    self.v_layout1.addWidget(self.baton_test_2)
-    self.v_layout1.addWidget(self.test_2_area)
+    self.v_layout1.addWidget(self.test_2, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.baton_test_2, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.test_2_area, alignment=Qt.AlignLeft)
     # ТЕСТ НОМЕР 3
-    self.v_layout1.addWidget(self.test_3)
-    self.v_layout1.addWidget(self.baton_test_3)
-    self.v_layout1.addWidget(self.test_3_area)
+    self.v_layout1.addWidget(self.test_3, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.baton_test_3, alignment=Qt.AlignLeft)
+    self.v_layout1.addWidget(self.test_3_area, alignment=Qt.AlignLeft)
     # КНОПКА РЕЗУЛЬТАТА
-    self.v_layout1.addWidget(self.baton_test_4)
+    self.v_layout1.addWidget(self.baton_test_4, alignment=Qt.AlignCenter)
 
 #======================================================================@
     self.v_layout2.addWidget(self.timer)
